@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: n8n
+    env: docker
+    plan: free
+    dockerfilePath: Dockerfile
+    envVars:
+      - key: N8N_BASIC_AUTH_ACTIVE
+        value: true
+      - key: N8N_BASIC_AUTH_USER
+        value: M8nchick
+      - key: N8N_BASIC_AUTH_PASSWORD
+        value: techtink30
+      - key: WEBHOOK_TUNNEL_URL
+        value: https://n8n-yourusername.onrender.com
