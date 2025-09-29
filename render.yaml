@@ -12,4 +12,4 @@ services:
       - key: N8N_BASIC_AUTH_PASSWORD
         value: techtink30
       - key: WEBHOOK_TUNNEL_URL
-        value: https://n8n-yourusername.onrender.com
+        value: https://n8n-vixen.onrender.com
